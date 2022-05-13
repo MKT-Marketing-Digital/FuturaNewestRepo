@@ -1,0 +1,11 @@
+@media (min-width: 900px){
+    .margen-contenido{
+        margin: 0px 100px 0px 100px !important;
+    }
+}
+@media (min-width: 900px){
+    .padding-noResponsive{
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+    }
+}

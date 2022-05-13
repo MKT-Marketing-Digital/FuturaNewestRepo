@@ -1,0 +1,26 @@
+.agregarSlide .botonAgregar a{
+    background-color:lightgreen !important;
+    border-radius: 15px;
+}
+.agregarMarca .botonAgregar a{
+    background-color:lightgreen !important;
+    border-radius: 15px;
+}
+.agregarLogo .botonAgregar a{
+    background-color:lightgreen !important;
+    border-radius: 15px;
+} 
+.buttonFormularioQuienesSomos{
+    background-color: rgb(75, 187, 75);
+    color: white;
+    width: 200px;
+}
+.botonAgregar a{
+    background-color:lightgreen !important;
+    border-radius: 15px;
+}
+.botonActualizar{
+    background-color: rgb(75, 187, 75);
+    color: white;
+    width: 200px;
+}

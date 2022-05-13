@@ -1,0 +1,1 @@
+<?php echo php artisan config:clear ?>
