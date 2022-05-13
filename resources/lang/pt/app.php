@@ -67,7 +67,7 @@ return [
     'enlaceProducto' => 'MAIS INFORMAÇÃO',
     'mensaje_de_gracias' => '¡Obrigado por entrar em contato conosco, entraremos em contato o mais rápido possível!',
 	'imagen_slider' => 'portugues',
-
+    'contacto' => 'CONTATO',
 
   
 ];

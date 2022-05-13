@@ -145,7 +145,7 @@
 
         <div class="col-12 my-3 d-flex align-items-center justify-content-center">
             <button class="go-to-contacto p-3 bg-dark" style="border-radius: 5px; border: none; font-family: 'Montserrat-Medium', sans-serif; color: white;">
-                CONTACTO
+                @lang('app.contacto')
             </button>
         </div>
     </div>
@@ -247,7 +247,7 @@
     </div>
     <div class="col-12 my-3 d-flex align-items-center justify-content-center">
         <button class="go-to-contacto p-3 bg-dark" style="border-radius: 5px; border: none; font-family: 'Montserrat-Medium', sans-serif; color: white;">
-            CONTACTO
+            @lang('app.contacto')
         </button>
     </div>
     <div class="row m-0 RowGrisInstaladas pb-4">
