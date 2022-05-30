@@ -64,6 +64,7 @@
                         <div class="collapse navbar-collapse col-xl-7 col-6-customizada p-0 text-center" id="navbarSupportedContent" >
                             <ul class="navbar-nav mr-auto ui-sortable d-flex justify-content-between">
                                 <li class="nav-item"><a class="nav-link" href="{{route('InicioFront')}}">@lang('app.nav_inicio')</a></li>
+                                <li class="nav-item"><a class="nav-link" href="https://blog.futura.com.ar/">BLOG</a></li>
                                 <li class="nav-item"><a class="nav-link" href="{{route('QuienesSomosFront')}}">@lang('app.nav_quienes_somos')</a></li>
                                 <li class="nav-item"><a class="nav-link" href="{{route('ProductosFront')}}">@lang('app.nav_productos')</a></li>
                                 <li class="nav-item"><a class="nav-link" href="{{route('DistribuidoresFront')}}">@lang('app.nav_distribuidores')</a></li>

@@ -5,38 +5,40 @@
         <div class="m-0 p-0 d-none">
             <span id="idiomaImagenSlider">@lang('app.imagen_slider')</span>
         </div>
-            <div class="modal-wrapper" id="popup">  
-                <div class="popup-contenedor" style="max-width: 500px">
-             	<img src="{{asset(Storage::url($logoPopUp->icono))}}" id="imagen_español"/>
-                <img src="{{asset(Storage::url($logoPopUp->icono_ingles))}}" id="imagen_ingles"/>
-                <img src="{{asset(Storage::url($logoPopUp->icono_portugues))}}" id="imagen_portugues"/>
-        <!--Script para seleccionar imagen segun idioma -->
-        <script>
-    	if($('#idiomaImagenSlider').html() == 'español'){
-        	$('#imagen_ingles').addClass('d-none');
-        	$('#imagen_portugues').addClass('d-none');
-        	if($('#imagen_español').hasClass('d-none')){
-        		$('#imagen_español').removeClass('d-none');
-            }
-        }
-    	else if($('#idiomaImagenSlider').html() == 'ingles'){
-        	$('#imagen_español').addClass('d-none');
-        	$('#imagen_portugues').addClass('d-none');
-        	if($('#imagen_ingles').hasClass('d-none')){
-        		$('#imagen_ingles').removeClass('d-none');
-            }
-        }
-    	else if($('#idiomaImagenSlider').html() == 'portugues'){
-        	$('#imagen_ingles').addClass('d-none');
-        	$('#imagen_español').addClass('d-none');
-        	if($('#imagen_portugues').hasClass('d-none')){
-        		$('#imagen_portugues').removeClass('d-none');
-            }
-        }
-	</script>
-                 <a class='cerrar' href='javascript:void(0);' onclick='document.getElementById(&apos;popup&apos;).className = &apos;oculto&apos;' style="margin-right: 10px;margin-top: 10px;">x</a>
-                
+            <a href="{{route('RinglockFront')}}">
+                <div class="modal-wrapper" id="popup">  
+                    <div class="popup-contenedor" style="max-width: 500px">
+                     <img src="{{asset(Storage::url($logoPopUp->icono))}}" id="imagen_español"/>
+                    <img src="{{asset(Storage::url($logoPopUp->icono_ingles))}}" id="imagen_ingles"/>
+                    <img src="{{asset(Storage::url($logoPopUp->icono_portugues))}}" id="imagen_portugues"/>
+                    <!--Script para seleccionar imagen segun idioma -->
+                    <script>
+                        if($('#idiomaImagenSlider').html() == 'español'){
+                            $('#imagen_ingles').addClass('d-none');
+                            $('#imagen_portugues').addClass('d-none');
+                            if($('#imagen_español').hasClass('d-none')){
+                                $('#imagen_español').removeClass('d-none');
+                            }
+                        }
+                        else if($('#idiomaImagenSlider').html() == 'ingles'){
+                            $('#imagen_español').addClass('d-none');
+                            $('#imagen_portugues').addClass('d-none');
+                            if($('#imagen_ingles').hasClass('d-none')){
+                                $('#imagen_ingles').removeClass('d-none');
+                            }
+                        }
+                        else if($('#idiomaImagenSlider').html() == 'portugues'){
+                            $('#imagen_ingles').addClass('d-none');
+                            $('#imagen_español').addClass('d-none');
+                            if($('#imagen_portugues').hasClass('d-none')){
+                                $('#imagen_portugues').removeClass('d-none');
+                            }
+                        }
+                    </script>
+                     <a class='cerrar' href='javascript:void(0);' onclick='document.getElementById(&apos;popup&apos;).className = &apos;oculto&apos;' style="margin-right: 10px;margin-top: 10px;">x</a>
+                    
                 </div> 
+            </a>
             </div>
             <div class="row m-0">
                 <div class="col-12 px-0 ">
